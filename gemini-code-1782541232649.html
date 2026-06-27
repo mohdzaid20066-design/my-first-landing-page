@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة هبوط احترافية</title>
+    <style>
+        /* هنكتب هنا كود الـ CSS في الخطوة الجاية عشان نخلي الشكل شيك */
+        body { font-family: sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f4f4f9; }
+        header { background: #333; color: #fff; padding: 20px; }
+        .hero { padding: 50px 20px; background: #007bff; color: white; }
+        .btn { display: inline-block; padding: 10px 20px; color: white; background: #ff5722; text-decoration: none; border-radius: 5px; margin-top: 15px; }
+        .features { display: flex; justify-content: space-around; padding: 40px 20px; flex-wrap: wrap; }
+        .feature-box { background: white; padding: 20px; margin: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 30%; min-width: 250px; }
+        footer { background: #333; color: white; padding: 15px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <!-- الجزء العلوي (الهيدر) -->
+    <header>
+        <h1>موقع شركتنا الذكية</h1>
+    </header>
+
+    <!-- القسم الرئيسي (Hero Section) -->
+    <section class="hero">
+        <h2>نحن نساعدك في بناء مستقبلك الرقمي</h2>
+        <p>نقدم أفضل الحلول البرمجية وتصميم المواقع بأعلى جودة وأسرع وقت.</p>
+        <a href="#contact" class="btn" id="cta-btn">ابدأ مشروعك الآن</a>
+    </section>
+
+    <!-- قسم المميزات (Features) -->
+    <section class="features">
+        <div class="feature-box">
+            <h3>سرعة فائقة</h3>
+            <p>مواقعنا سريعة وتعمل على جميع الأجهزة بكفاءة عالية.</p>
+        </div>
+        <div class="feature-box">
+            <h3>تصميم عصري</h3>
+            <p>أشكال جذابة ومناسبة لهوية مشروعك وتجذب عملائك.</p>
+        </div>
+        <div class="feature-box">
+            <h3>دعم مستمر</h3>
+            <p>فريقنا معك دائماً لحل أي مشكلة وتحديث موقعك.</p>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
+
+    <!-- ملف الـ JavaScript هنربطه هنا -->
+    <script>
+        // كود تفاعلي بسيط بـ JavaScript
+        const button = document.getElementById('cta-btn');
+        button.addEventListener('click', function() {
+            alert('شكراً لاهتمامك! سنتواصل معك فوراً.');
+        });
+    </script>
+
+</body>
+</html>
